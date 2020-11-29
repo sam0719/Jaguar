@@ -13,7 +13,7 @@
 |Rastrigin|2||√|
 |Rastrigin|1|srand(114),30次實驗|√|
 |Ackley|1|srand(114),30次實驗|√|
-|Rastrigin|2|srand(114),30次實驗|√git|
+|Rastrigin|2|srand(114),30次實驗||
 |Ackley|2|srand(114),30次實驗||
 
 ## 對齊時遇到的情況

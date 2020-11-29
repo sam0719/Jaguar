@@ -719,7 +719,7 @@ double cal_fitness(float x, string Info) {
     ostringstream oss;
     ostringstream oss2;
     oss << "第" << dimension+1 << "維," << Info << ",當前位置為" << setprecision(26) << x << ",當前步伐為" << speed << ",初始步伐" << f_speed << ",當前fitness為" << r << ",(float)當前fitness為" << (float)r << ",局部最佳fitness為" << pb_fitness << ",全域最佳fitness為" << gb_fitness << ",區域最佳位置" << pb_location[dimension] << ",最佳坑底位置" << gb_location[dimension];
-    oss2 << "./data/第" << run_time + 1 << "次實驗JA.epin";
+    oss2 << "第" << run_time + 1 << "次實驗JA.epin";
     if (epin)
         epin_write(oss2.str(), oss.str(), g_fitness, x);
     return r;
